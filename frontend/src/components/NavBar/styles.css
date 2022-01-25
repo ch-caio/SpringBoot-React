@@ -1,0 +1,55 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-link {
+    margin: 0;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-content h3 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: radial-gradient(circle at 35.44% 50%, #ff9e00 0, #ff8c20 8.33%, #ff7836 16.67%, #ff6245 25%, #ff4a4f 33.33%, #ff2f56 41.67%, #f70559 50%, #db005a 58.33%, #c2005b 66.67%, #ab005c 75%, #96005e 83.33%, #830061 91.67%, #730065 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+
+.contact-content {
+    display: flex;
+    align-self: center;
+    background-image: radial-gradient(circle at 35.44% 50%, #ff9e00 0, #ff8c20 8.33%, #ff7836 16.67%, #ff6245 25%, #ff4a4f 33.33%, #ff2f56 41.67%, #f70559 50%, #db005a 58.33%, #c2005b 66.67%, #ab005c 75%, #96005e 83.33%, #830061 91.67%, #730065 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    color: #fff;
+}
+
+.contact-content icon {
+    margin-top: 10px;
+}
+
+.contact-link {
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+img, svg {
+    vertical-align: middle;
+    margin-top: 7px;
+}
