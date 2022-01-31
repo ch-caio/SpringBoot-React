@@ -29,7 +29,7 @@ public class ScoreService {
         if (user == null) {
             user = new User();
             user.setEmail(scoreDTO.getEmail());
-            user = userRepository.saveAndFlush(user);
+            user = userRepository.saveAndFlush(user); // atualizado
         }
 
         Movie movie = movieRepository.findById(scoreDTO.getMovieId()).get();
@@ -50,6 +50,7 @@ public class ScoreService {
         movie.setScore(media);
         movie.setCount(movie.getScores().size());
         movie = movieRepository.save(movie);
+
         return new MovieDTO(movie);
     }
 }
