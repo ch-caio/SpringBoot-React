@@ -8,7 +8,7 @@ function NavBar() {
             <nav className='container'>
                 <div className='navbar-content'>
                     <h3>Movies Catalog</h3>
-                    <a href="https://github.com/ch-caio"></a>
+             
                     <div className='contact-content'>
                         <GitHubIcon className='icon' />
                         <p className='contact-link'>/ch-caio</p>
@@ -21,3 +21,5 @@ function NavBar() {
 }
 
 export default NavBar;
+
+// <a href="https://github.com/ch-caio"></a>
